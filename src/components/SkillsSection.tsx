@@ -4,9 +4,9 @@ const skills = [
   { name: "HTML", level: 90 },
   { name: "CSS", level: 85 },
   { name: "JavaScript", level: 80 },
-  { name: "React 19", level: 75 },
-  { name: "PHP", level: 70 },
-  { name: "Laravel", level: 70 },
+  { name: "React 19", level: 80 },
+  { name: "PHP", level: 90 },
+  { name: "Laravel", level: 90 },
 ];
 
 const SkillsSection = () => {
