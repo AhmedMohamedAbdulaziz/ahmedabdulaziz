@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ahmedPhoto from "@/assets/ahmed-photo.jpg";
-import { Mail, Phone, Linkedin, ChevronDown } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -59,6 +59,14 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors"
             >
               <Linkedin size={18} /> LinkedIn
+            </a>
+            <a
+              href="https://github.com/AhmedMohamedAbdulaziz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors"
+            >
+              <Github size={18} /> GitHub
             </a>
           </div>
         </motion.div>

@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin } from "lucide-react";
+import { Mail, Phone, Github } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -23,6 +23,15 @@ const ContactSection = () => {
           >
             <Phone size={18} className="text-primary" />
             <span className="text-sm">+201097022569</span>
+          </a>
+          <a
+            href="https://github.com/AhmedMohamedAbdulaziz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-card border border-border text-foreground hover:border-primary/40 hover:shadow-glow transition-all"
+          >
+            <Github size={18} className="text-primary" />
+            <span className="text-sm">GitHub</span>
           </a>
         </div>
 
