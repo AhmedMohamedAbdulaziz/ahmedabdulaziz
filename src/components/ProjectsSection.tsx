@@ -27,6 +27,11 @@ const projects = [
     description: "Real-time weather application consuming external weather APIs.",
     tech: ["React 19", "API"],
   },
+  {
+    title: "RESTful API with Node.js & Express",
+    description: "Scalable backend API built with Node.js and Express for handling server-side logic and data management.",
+    tech: ["Node.js", "Express"],
+  },
 ];
 
 const ProjectsSection = () => {
