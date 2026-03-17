@@ -7,6 +7,7 @@ const skills = [
   { name: "React 19", level: 80 },
   { name: "PHP", level: 90 },
   { name: "Laravel", level: 90 },
+  { name: "Node.js / Express", level: 80 },
 ];
 
 const SkillsSection = () => {
