@@ -18,7 +18,7 @@ const HeroSection = () => {
         >
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-primary/30 shadow-glow">
             <img
-              src={ahmedPhoto}
+              src={ahmedPhoto.url}
               alt="Ahmed Mohamed"
               className="w-full h-full object-cover object-top"
             />
