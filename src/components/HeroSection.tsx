@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Ambient glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px] pointer-events-none" />
 
-      <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20 py-20">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-12 py-20 text-center">
         {/* Photo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
