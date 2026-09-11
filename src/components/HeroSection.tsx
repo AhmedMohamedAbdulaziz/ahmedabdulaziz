@@ -33,7 +33,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-center lg:text-left max-w-xl"
+          className="text-center max-w-xl"
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-3">
             Hello, I'm
