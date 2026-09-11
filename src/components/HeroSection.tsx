@@ -45,7 +45,7 @@ const HeroSection = () => {
           <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
             Passionate full-stack web developer focused on speed, quality, and client satisfaction. Building modern web solutions with React, Laravel & more.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+          <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="mailto:ahmedmohamedabdulaziz96@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity shadow-glow"
