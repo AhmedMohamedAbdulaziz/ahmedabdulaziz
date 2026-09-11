@@ -18,6 +18,16 @@ const projects = [
     tech: ["Laravel", "PHP"],
   },
   {
+    title: "EduSphere",
+    description: "Online learning platform with a Laravel API backend and a React frontend, supporting courses, lessons, enrollments, and role-based dashboards.",
+    tech: ["Laravel", "React", "API"],
+  },
+  {
+    title: "Job Board Platform",
+    description: "Multi-application Job Board Platform built with Laravel 10 in a Monorepo Architecture, featuring an AI Candidate Evaluation Service powered by OpenAI.",
+    tech: ["Laravel", "OpenAI", "Monorepo"],
+  },
+  {
     title: "Maswada AI",
     description: "AI-powered application built with the latest React 19 features.",
     tech: ["React 19"],
