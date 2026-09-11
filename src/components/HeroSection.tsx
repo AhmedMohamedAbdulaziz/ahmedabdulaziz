@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Ambient glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px] pointer-events-none" />
 
-      <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20 py-20">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-12 py-20 text-center">
         {/* Photo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -33,7 +33,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-center lg:text-left max-w-xl"
+          className="text-center max-w-xl"
         >
           <p className="font-mono text-primary text-sm tracking-widest uppercase mb-3">
             Hello, I'm
@@ -45,7 +45,7 @@ const HeroSection = () => {
           <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
             Passionate full-stack web developer focused on speed, quality, and client satisfaction. Building modern web solutions with React, Laravel & more.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+          <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="mailto:ahmedmohamedabdulaziz96@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity shadow-glow"
