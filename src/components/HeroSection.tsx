@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ahmedPhoto from "@/assets/ahmed-photo.jpg";
+import ahmedPhoto from "@/assets/ahmed-photo.jpg.asset.json";
 import { Mail, Phone, Linkedin, Github, ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
